@@ -1,0 +1,66 @@
+baseURL = ""
+DefaultContentLanguage = "en"
+languageCode = "en-us"
+title = "Alpkans"
+theme = "lightbi-hugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+enableRobotsTXT = true
+enableGitInfo = false
+Paginate = 6
+
+[Params] 
+mainSections = ["post","posts"]
+dateFormat = "2 January 2023"
+comments = false
+readingTime = false
+wordCount = false
+useHLJS = true
+socialShare = true
+delayDisqus = true
+showRelatedPosts = true 
+summaryLength  = "9"
+gcse = false
+Lastmod = false
+rss = false 
+pagination = "10"
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[Author]
+  name = "AlpkanSarikaya"
+  website = ""
+  email = "sari0022@algonquinlive.com"
+  youtube = "@alpkans" #
+  #reddit = "alpkans"
+
+[[menu.main]]
+    name = "Home"
+    url = "/Home/"
+    weight = 1
+
+[[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 2
+
+[[menu.main]]
+    name = "Collections"
+    url = "/collections/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4

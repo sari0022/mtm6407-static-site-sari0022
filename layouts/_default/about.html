@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<div class="about-section"> 
+  <div class="container">
+    <div class="row flex-lg-row-reverse align-items-center">
+      <div class="col-md-8 col-lg-4">
+        <img src="{{ "/img/about.jpg" }}" class="d-block mx-lg-auto img-fluid img-80" alt="Alpkans image">
+      </div>
+     
+        <div class="col-md-8 col-lg-8">
+          <div class="col-12"> 
+              {{ with .Content }} 
+              {{.}} 
+              {{ end }}
+          </div> 
+          <ul class="share list-inline list-group list-group-horizontal footer-links d-flex flex-row">
+            <li>
+              <a href="mailto:sari0022@algonquinlive.com" title="Email to Alpkan" target="_blank">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </li>
+
+          </ul>
+        </div> 
+      </div>
+
+    </div>
+
+  </div>
+
+
+  {{ end }}
